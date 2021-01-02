@@ -1,4 +1,5 @@
-#define NgoaHoTangLong 54321
+#define VoLaMotDoaHoaHong 1900150
+#define VoLaSuTuHaDong 1900151
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>;
 LiquidCrystal_I2C lcd(0x27, 16, 2);
