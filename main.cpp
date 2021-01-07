@@ -12,4 +12,6 @@ int main(int argc, char *argv[])
     context->setContextProperty("dataStore",&dt);
     engine.load(QUrl(QStringLiteral("qrc:/datastore.qml")));
     return app.exec();
+	/*xin chao toi la issue 1
+	toi thuoc forder Soure2*/
 }
